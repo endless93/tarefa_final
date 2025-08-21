@@ -50,7 +50,7 @@
   --bs-info-rgb: 28, 171, 196;
   --bs-warning-rgb: 228, 198, 98;
   --bs-danger-rgb: 161, 100, 104;
-  --bs-light-rgb: 248, 249, 250;
+  --bs-light-rgb: 196, 188, 179;
   --bs-dark-rgb: 33, 37, 41;
   --bs-black-rgb: 0, 0, 0;
   --bs-white-rgb: 255, 255, 255;
@@ -11069,7 +11069,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/back01.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11112,8 +11112,8 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  padding-top: 6rem;
+  background: linear-gradient(to bottom, #020202 0%, rgb(25, 17, 16) 75%, rgb(196, 188, 179) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11143,7 +11143,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/back02.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11201,3 +11201,4 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
